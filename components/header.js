@@ -30,8 +30,8 @@ class Header extends HTMLElement {
         <footer>
             <hr>
             <nav>
-                <a href="https://youtube.com/@">youtube</a> |
-                <a href="https://github.com/LilyTheThink">github</a>
+                <a href="https://youtube.com/@" target="_blank">youtube</a> |
+                <a href="https://github.com/LilyTheThink" target="_blank">github</a>
             </nav>
         <footer>
       `;
