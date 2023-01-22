@@ -8,7 +8,7 @@ class Header extends HTMLElement {
         
         <header>
             <h1 id="title"> Lily Ophelia </h1>
-            <h3> <i> pronouns she/her </i></h3>
+            <h3> <i> pronouns: she/her </i></h3>
             <h4> "sometimes things are bad, but that's ok, because dogs still exist - alex"</h4>
             <nav>
                 <a href="index.html">home</a>
@@ -30,7 +30,7 @@ class Header extends HTMLElement {
         <footer>
             <hr>
             <nav>
-                <a href="https://youtube.com/@" target="_blank">youtube</a> |
+                <a href="https://youtube.com/@lilymackenzie" target="_blank">youtube</a> |
                 <a href="https://github.com/LilyTheThink" target="_blank">github</a>
             </nav>
         <footer>
