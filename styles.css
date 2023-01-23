@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
+@media screen and (min-width: 600px) {
+    #phonechump {
+        display: none;
+    }
+}
+
+
+#badges {
+    padding: 1rem;
+}
+
 #main {
     padding-left: 5%;
     padding-right: 5%;
