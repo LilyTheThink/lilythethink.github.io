@@ -12,6 +12,7 @@ class Header extends HTMLElement {
             <h4> "sometimes things are bad, but that's ok, because dogs still exist - alex"</h4>
             <nav>
                 <a href="index.html">home</a>
+                <a href="posts.html">posts</a>
             </nav>
             <hr>
         </header>
@@ -57,7 +58,6 @@ class Header extends HTMLElement {
       `;
     }
   }
-  
   
   customElements.define('header-component', Header);
   customElements.define('footer-component', Footer);
