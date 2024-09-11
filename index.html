@@ -1,19 +1,59 @@
 <!DOCTYPE html>
 
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <head>
-    <link rel="stylesheet" href="styles.css">
-    <script src="components/header.js" type="text/javascript" defer></script>
-</head>   
-<body>
-    <header-component></header-component>
+  <meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="/icons/favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts/navs.js" type="text/javascript"></script>
+  <script src="scripts/apply_iframe_class.js" type="text/javascript"></script>
+  <script src="scripts/animations.js" type="text/javascript"></script>
+</head>
 
-    <p id="main"> my name is <i>lily ophelia</i>, i'm a voice teacher, singer, musician, hobbiest coder,
-    artist, writer and others.
-    i'm also a trans woman and liker of wine, cheese, blahaj, and others </p>
 
-    <footer-component></footer-component>
-</body> 
+<body id="home" class="home background-scroll">
+  
+    <div id="layout">
+    
+    <div id="header-placeholder"></div>
 
+    <div id="phonenav" class="sidenav has-border phone-only">
+      <nav>
+        <ul>
+          <li><a href="pages/about.html" target="mainframe" >&#128103 About</a></li>
+          <li><a href="pages/blog.html" target="mainframe" >&#128212  Posts</a></li>
+          <li><a href="pages/music.html" target="mainframe" >&#127925  Music</a></li>
+          <li><a href="pages/art.html" target="mainframe" >&#127912  Art</a></li>
+          <li><a href="pages/coding.html" target="mainframe" >&#128187 Coding</a></li>
+          <li><a href="pages/games.html" target="mainframe" >&#127918  Games</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="middle">
+      <iframe name="mainframe" id="mainframe" title="Main Content" frameborder="0" src="pages/about.html"> </iframe>
+      
+      <nav id="mainnav" class="sidenav has-border not-on-phone" >
+        <ul>
+          <li><a href="pages/about.html" target="mainframe" >&#128103 About</a></li>
+          <li><a href="pages/blog.html" target="mainframe" >&#128212  Posts</a></li>
+          <li><a href="pages/music.html" target="mainframe" >&#127925  Music</a></li>
+          <li><a href="pages/art.html" target="mainframe" >&#127912  Art</a></li>
+          <li><a href="pages/coding.html" target="mainframe" >&#128187 Coding</a></li>
+          <li><a href="pages/games.html" target="mainframe" >&#127918  Games</a></li>
+          <hr>  
+          <li><a href="https://youtube.com/@lilymackenzie" target="_blank"><img src="badges/ytbutton.gif" alt="youtube"/></a></li>
+          <li><a href="https://github.com/LilyTheThink" target="_blank"><img src="badges/github-check.gif" alt="github"/></a></li>
+          <li><a href="https://www.twitter.com/@MacKenzieVoice"><img src="badges/twitterbutton.gif" alt="twitter"/></a></li>
+          <li><input type="image" src="badges/shake.png" onclick="shakeFunction()"></input></li>
+          <li><input type="image" src="badges/bg-toggle.png" onclick="stopAnimation()"></input></li>
+        </ul>
+      </nav>
+
+    </div>
+    
+    <div id="footer-placeholder"></div>
+    </div>
+</body>
 </html>

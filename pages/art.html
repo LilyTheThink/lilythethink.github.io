@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../styles.css" rel="stylesheet" type="text/css">
+    <title>art page</title>
+    <style media="screen and (orientation: portrait)">
+      .art-entry {
+        display: block;
+      }
+    </style>
+
+    <style media="screen and (orientation: landscape)">
+      .art-entry {
+        display: inline-flex;
+      }
+    </style>
+
+    <style>
+      figcaption {
+        padding: 1%;
+        text-align: center;
+        vertical-align: middle;
+        margin: auto;
+      }
+
+      img {
+        border: solid var(--text-color) 1px;
+        margin: 0;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    
+    <h1>Art</h1>
+    <hr>
+    <figure class="art-entry">
+      <img src="../images/Apple.png" width="250px" height="250px"/>
+      <figcaption><b>Apple</b> <br> First thing I painted in Krita. <br> <i>July 2024</i></figcaption>
+    </figure>
+
+  </body>
+</html>
