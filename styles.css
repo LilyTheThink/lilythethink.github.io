@@ -204,8 +204,16 @@ h1, h2, h3, h4, h5 {
     }
 }
 
+.top-button {
+    display: inline;
+    padding: 0%;
+    margin: 0%;
+}
+
 .top-buttons {
     display: inline;
+    padding: 0%;
+    margin: 0%;
 }
 
 .has-border {
@@ -217,6 +225,12 @@ h1, h2, h3, h4, h5 {
     box-sizing: border-box;
 }
 
+.cover-list-item {
+    padding: 8px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
 
 /*---------------------------*/
 
